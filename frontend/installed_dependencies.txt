@@ -1,0 +1,24 @@
+# Frontend Dependency & Setup Commands
+
+# 1. Scaffold React Project with Vite
+npm create vite@latest frontend -- --template react -y
+
+# 2. Install React Core Dependencies
+cd frontend
+npm install
+
+# 3. Install UI Icons, Charts, and HTTP Client
+npm install lucide-react recharts axios
+
+# 4. Install Tailwind CSS and Vite Plugin
+npm install -D tailwindcss @tailwindcss/vite
+
+# 5. Install React Engine & Types
+npm install react react-dom @types/react @types/react-dom
+
+# 6. Install Vite React Plugin (JSX & Fast Refresh)
+npm install -D @vitejs/plugin-react
+
+# 7. Start Frontend Development Server
+npm run dev
+

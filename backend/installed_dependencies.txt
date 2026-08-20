@@ -1,0 +1,10 @@
+# Backend Dependency & Setup Commands
+
+# 1. Create Python Virtual Environment
+python -m venv .venv
+
+# 2. Activate Virtual Environment (Windows PowerShell)
+.\.venv\Scripts\activate
+
+# 3. Install All Backend Dependencies
+pip install -r requirements.txt
