@@ -11,9 +11,17 @@ from app.schemas.product import (
 )
 from app.schemas.analytics import PriceTrendPoint, PriceAnalyticsSummary
 from app.schemas.recommendation import (
+    RecommendationSearchRequest,
     ParsedRequirements,
     ScoredProductRecommendation,
     RecommendationResponse,
+)
+from app.schemas.review import (
+    AspectScore,
+    AspectSentimentResponse,
+    ReviewChunk,
+    ReviewQARequest,
+    ReviewQAResponse,
 )
 
 __all__ = [
@@ -34,7 +42,14 @@ __all__ = [
     "CanonicalProductResponse",
     "PriceTrendPoint",
     "PriceAnalyticsSummary",
+    "RecommendationSearchRequest",
     "ParsedRequirements",
     "ScoredProductRecommendation",
     "RecommendationResponse",
+    "AspectScore",
+    "AspectSentimentResponse",
+    "ReviewChunk",
+    "ReviewQARequest",
+    "ReviewQAResponse",
 ]
+

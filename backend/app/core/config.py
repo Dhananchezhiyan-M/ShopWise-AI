@@ -34,7 +34,7 @@ class Settings(BaseSettings):
 
     # Google Gemini AI settings
     GEMINI_API_KEY: str = ""
-    GEMINI_MODEL_NAME: str = "gemini-1.5-flash"
+    GEMINI_MODEL_NAME: str = "gemini-3.6-flash"
 
     model_config = SettingsConfigDict(
         env_file=".env",

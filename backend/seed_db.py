@@ -588,6 +588,161 @@ def seed_database():
                     }
                 ],
             },
+
+            # --------------------------- CYCLES & FITNESS ---------------------------
+            {
+                "title": "Firefox Bikes Target 21-Speed Mountain Bike (27.5T / Alloy Disc Brakes)",
+                "brand": "Firefox",
+                "category": "cycles",
+                "base_model": "Target 21S",
+                "image_url": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=600&auto=format&fit=crop&q=80",
+                "description": "All-terrain 21-speed mountain bike with lightweight steel frame, front suspension zoom fork, Shimano tourney shifters, and dual mechanical disc brakes.",
+                "variants": [
+                    {
+                        "variant_name": "27.5T Wheels / 21-Speed Shimano / Matt Black & Orange",
+                        "sku": "FFX-TRGT21-275-BLK",
+                        "ram_gb": None,
+                        "storage_gb": None,
+                        "cpu_processor": None,
+                        "gpu_graphics": None,
+                        "screen_size_inch": None,
+                        "battery_specs": None,
+                        "color": "Matt Black & Orange",
+                        "trend_type": "drop",
+                        "listings": [
+                            {
+                                "store_slug": "amazon",
+                                "external_product_id": "B089FFXTRG",
+                                "product_url": "https://www.amazon.in/dp/B089FFXTRG",
+                                "title_in_store": "Firefox Bikes Target 21S 27.5T, 21 Speed Mountain Bike with Front Suspension and Dual Disc Brakes (Matt Black)",
+                                "current_price": 13999.0,
+                                "original_mrp": 18500.0,
+                                "discount_percent": 24.3,
+                                "rating_star": 4.3,
+                                "rating_count": 3200,
+                            },
+                            {
+                                "store_slug": "flipkart",
+                                "external_product_id": "CYCFFXTRGT21",
+                                "product_url": "https://www.flipkart.com/firefox-target-21s-27-5-t-21-gear-mountain-cycle/p/itmffxtarget",
+                                "title_in_store": "Firefox Target 21S 27.5 T 21 Gear Mountain/Hardtail Cycle (Dual Disc Brake, Front Suspension, Black)",
+                                "current_price": 13499.0,
+                                "original_mrp": 18500.0,
+                                "discount_percent": 27.0,
+                                "rating_star": 4.4,
+                                "rating_count": 2800,
+                            },
+                            {
+                                "store_slug": "croma",
+                                "external_product_id": "CRM-CYC4091",
+                                "product_url": "https://www.croma.com/firefox-target-21s-mountain-bike/p/4091",
+                                "title_in_store": "Firefox Bikes Target 21-Speed 27.5 Inch Hardtail MTB (Matt Black and Orange)",
+                                "current_price": 14499.0,
+                                "original_mrp": 18500.0,
+                                "discount_percent": 21.6,
+                                "rating_star": 4.5,
+                                "rating_count": 420,
+                            },
+                        ],
+                    }
+                ],
+            },
+
+            # --------------------------- KITCHEN & HOME APPLIANCES ---------------------------
+            {
+                "title": "HealthSense Chef-Mate Digital Kitchen Weighing Scale (5kg / 1g Precision)",
+                "brand": "HealthSense",
+                "category": "kitchen_appliances",
+                "base_model": "Chef-Mate KS 33",
+                "image_url": "https://images.unsplash.com/photo-1594498653385-d5172c532c00?w=600&auto=format&fit=crop&q=80",
+                "description": "High precision electronic kitchen food scale with Tare function, 1g precision graduation, clear backlit LCD display, and food-grade stainless steel platform.",
+                "variants": [
+                    {
+                        "variant_name": "5kg Capacity / 1g Precision / Stainless Steel & Black",
+                        "sku": "HS-KS33-5KG-SS",
+                        "ram_gb": None,
+                        "storage_gb": None,
+                        "cpu_processor": None,
+                        "gpu_graphics": None,
+                        "screen_size_inch": None,
+                        "battery_specs": "2x AAA Batteries (Included, Low Battery Indicator)",
+                        "color": "Stainless Steel & Black",
+                        "trend_type": "drop",
+                        "listings": [
+                            {
+                                "store_slug": "amazon",
+                                "external_product_id": "B07XYZSCL1",
+                                "product_url": "https://www.amazon.in/dp/B07XYZSCL1",
+                                "title_in_store": "HealthSense Chef-Mate KS 33 Digital Kitchen Scale with Tare Function, 1g to 5kg Stainless Steel Food Scale (Black)",
+                                "current_price": 799.0,
+                                "original_mrp": 1499.0,
+                                "discount_percent": 46.7,
+                                "rating_star": 4.5,
+                                "rating_count": 14500,
+                            },
+                            {
+                                "store_slug": "flipkart",
+                                "external_product_id": "SCLHSKS33",
+                                "product_url": "https://www.flipkart.com/healthsense-chef-mate-ks-33-digital-weighing-scale/p/itmhsks33",
+                                "title_in_store": "HealthSense Chef-Mate KS 33 Electronic Food Weight Machine Kitchen Scale (Stainless Steel, 5 kg)",
+                                "current_price": 849.0,
+                                "original_mrp": 1499.0,
+                                "discount_percent": 43.3,
+                                "rating_star": 4.4,
+                                "rating_count": 9800,
+                            },
+                        ],
+                    }
+                ],
+            },
+
+            # --------------------------- HARDWARE & PLUMBING ---------------------------
+            {
+                "title": "Astral CPVC Pro High Pressure Plumbing Pipe (1 Inch / 3 Meter Length)",
+                "brand": "Astral",
+                "category": "hardware",
+                "base_model": "CPVC Pro 1-Inch",
+                "image_url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=600&auto=format&fit=crop&q=80",
+                "description": "Heavy duty SDR 11 hot and cold potable water plumbing pipe with NSF certification, UV resistance, lead-free composition, and 28 bar pressure rating.",
+                "variants": [
+                    {
+                        "variant_name": "1 Inch Diameter / 3 Meter Length / Class 1 SDR 11",
+                        "sku": "AST-CPVC-1IN-3M",
+                        "ram_gb": None,
+                        "storage_gb": None,
+                        "cpu_processor": None,
+                        "gpu_graphics": None,
+                        "screen_size_inch": None,
+                        "battery_specs": None,
+                        "color": "Off-White with Red Stripe",
+                        "trend_type": "drop",
+                        "listings": [
+                            {
+                                "store_slug": "amazon",
+                                "external_product_id": "B09ASTPIPE1",
+                                "product_url": "https://www.amazon.in/dp/B09ASTPIPE1",
+                                "title_in_store": "Astral Pipes CPVC PRO 1 Inch Heavy Duty Hot & Cold Water Plumbing Pipe, 3 Meters (Off-White)",
+                                "current_price": 380.0,
+                                "original_mrp": 490.0,
+                                "discount_percent": 22.4,
+                                "rating_star": 4.6,
+                                "rating_count": 1850,
+                            },
+                            {
+                                "store_slug": "flipkart",
+                                "external_product_id": "PIPASTCPVC1",
+                                "product_url": "https://www.flipkart.com/astral-cpvc-pro-1-inch-3m-pipe/p/itmastpipe",
+                                "title_in_store": "Astral CPVC PRO 1 Inch SDR 11 Potable Water Plumbing Pipe (3 Meter, Off White)",
+                                "current_price": 365.0,
+                                "original_mrp": 490.0,
+                                "discount_percent": 25.5,
+                                "rating_star": 4.5,
+                                "rating_count": 1200,
+                            },
+                        ],
+                    }
+                ],
+            },
         ]
 
         total_products = 0
